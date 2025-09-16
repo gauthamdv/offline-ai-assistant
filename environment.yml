@@ -1,0 +1,6 @@
+name: assistant
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+prefix: /home/gojo/miniconda3/envs/assistant
