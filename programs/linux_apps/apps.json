@@ -1,0 +1,19 @@
+{
+    "text-editor": {
+        "command": "gnome-text-editor",
+        "aliases": ["text editor", "editor", "notepad"]
+    },
+    "terminal": {
+        "command": "gnome-terminal",
+        "aliases": ["terminal", "console", "cmd"]
+    },
+    "browser": {
+        "command": "firefox",
+        "aliases": ["browser", "firefox", "internet"]
+    },
+    "clear-cache": {
+	    "command": "sudo /home/gojo/Projects/Assistant/programs/clean-cache.sh",
+	    "aliases": ["clear cache", "clean cache"]
+    }
+}
+
