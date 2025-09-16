@@ -184,6 +184,3 @@ User Input
    │
    └── Else → LLM Response → Generate conversational AI reply → Display in chat
 ```
-
-```}
-```
