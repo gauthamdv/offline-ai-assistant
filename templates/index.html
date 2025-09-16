@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Assistant</title>
+    <!-- Flask static CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Assistant</h1>
+
+        <!-- Chat window -->
+        <div id="chat" class="chat-window"></div>
+
+        <!-- Input area -->
+        <div class="input-area">
+            <input type="text" id="prompt" placeholder="Type your message..." onkeypress="if(event.key === 'Enter'){sendMessage();}">
+            <button onclick="sendMessage()">Send</button>
+            <button onclick="resetConversation()" class="reset-btn">Reset</button>
+        </div>
+    </div>
+
+    <!-- Flask static JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
+
