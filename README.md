@@ -46,7 +46,7 @@ offline-ai-assistant/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-github-url>
+git clone https://github.com/gauthamdv/offline-ai-assistant.git
 cd offline-ai-assistant
 ```
 
@@ -82,7 +82,7 @@ cd models
 2. Download the **Mistral 7B Q5 model**:
 
 ```bash
-wget <URL-of-mistral-7b-instruct-v0.2.Q5_K_M.gguf> -O mistral-7b-instruct-v0.2.Q5_K_M.gguf
+wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q5_K_M.gguf
 ```
 
 3. Replace the placeholder file (`model-mistral`) with the downloaded model:
